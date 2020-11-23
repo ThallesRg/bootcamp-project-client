@@ -9,8 +9,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import com.thallesrg.client.dto.ClientDTO;
-
 @Entity
 @Table(name = "tb_client")
 public class Client implements Serializable{
